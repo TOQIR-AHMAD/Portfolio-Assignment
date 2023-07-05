@@ -16,7 +16,7 @@ header{
     width: 100%;
     top: 0;
     z-index: 1;
-    transition: .5s;
+    transition: .5s !important;
     background-color: white;
 }
 
