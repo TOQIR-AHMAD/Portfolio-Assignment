@@ -6,12 +6,12 @@
 
 
 
-body{
+body {
     overflow-x: hidden;
-    
+
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -370,8 +370,8 @@ ul li a {
     /* bottom: 20px; */
     bottom: 20px;
     transition: .4s !important;
-    
-    
+
+
 }
 
 h3 a:hover {
@@ -471,11 +471,25 @@ h3 a:hover {
 
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
 
+
+
+@media (max-width: 425px) {
+    .setbtn {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .cardset {
+        display: flex !important;
+        /* width: 100% !important; */
+    }
+
+}
 
 
 @media (max-width: 768px) {
@@ -505,14 +519,3 @@ h3 a:hover {
     }
 
 }
-
-/* @media(max-width: 425px) {
-    body{
-        width: 100vw;
-    }
-
-}
- */
-
-
-
